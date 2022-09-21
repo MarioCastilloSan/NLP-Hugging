@@ -5,12 +5,13 @@ Natural Language Processing with Hugging Face Transformers
 ```
 Git
 Python
+TensorFlow
+Pytorch
 ```
 ## RUN PROJECT
 ```py
-    composer install
-    php artisan serve
-    php artisan migrate #in case you don't have an user table use  to migrate your model and generate it.
+   pip install pytorch
+   pip install tensorflow
 ```
 ## Authors ✒️
 
