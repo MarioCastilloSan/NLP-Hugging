@@ -10,6 +10,7 @@ Pytorch
 ```
 ## RUN PROJECT
 ```py
+   pip install transformers datasets
    pip install pytorch
    pip install tensorflow
 ```
