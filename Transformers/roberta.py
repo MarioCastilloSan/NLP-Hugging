@@ -10,7 +10,7 @@ def qa(qvalue,cvalue):
         'context': cvalue
     }
     res = nlp(QA_input) 
-    return res
+    return res['answer']
 
 
 
