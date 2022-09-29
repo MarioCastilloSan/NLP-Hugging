@@ -19,3 +19,4 @@ Pytorch
 _Developer_
 
 * **Mario Castillo** - *developer* - [MarioCastilloSan](https://github.com/MarioCastilloSan/)
+* **René Curin** - *developer* - [rcurinz](https://github.com/rcurinz)
