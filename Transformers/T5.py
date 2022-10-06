@@ -1,5 +1,5 @@
-from transformers import AutoTokenizer,AutoModelWithLMHead
-model = AutoModelWithLMHead.from_pretrained("T5Files")
+from transformers import AutoTokenizer,AutoModelForSeq2SeqLM
+model = AutoModelForSeq2SeqLM.from_pretrained("T5Files")
 tokenizer = AutoTokenizer.from_pretrained("T5Files")
 
 #To download this model
