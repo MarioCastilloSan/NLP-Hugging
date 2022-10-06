@@ -6,12 +6,12 @@ parser.add_argument('-sp', dest='spvalue',action='store_true',required=False)
 
 
 #ENGLISH TRANSFORMER ARGUMENTS
-parser.add_argument('-q',dest='qvalue', help="Question", type=str)
-parser.add_argument('-c',dest='cvalue', help="Context", type=str)
+parser.add_argument('-q',dest='qvalue', help="Question", type=str,required=False)
+parser.add_argument('-c',dest='cvalue', help="Context", type=str,required=False)
 
 #SPANISH ARGUMENTS
-parser.add_argument('-qsp',dest='qspvalue', help="Question", type=str)
-parser.add_argument('-csp',dest='cspvalue', help="Context", type=str)
+parser.add_argument('-qsp',dest='qspvalue', help="Question", type=str,required=False)
+parser.add_argument('-csp',dest='cspvalue', help="Context", type=str,required=False)
 args=parser.parse_args()
 """_summary_
         Brief documentation about the arguments parser
