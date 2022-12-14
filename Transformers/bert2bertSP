@@ -1,13 +1,17 @@
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
-tokenizer = AutoTokenizer.from_pretrained("b2bFiles")
+#tokenizer = AutoTokenizer.from_pretrained("b2bFiles")
 
-model = AutoModelForSeq2SeqLM.from_pretrained("b2bFiles")
+#model = AutoModelForSeq2SeqLM.from_pretrained("b2bFiles")
+
+
+#To download this model
+tokenizer = AutoTokenizer.from_pretrained("mrm8488/bert2bert-spanish-question-generation")
+model = AutoModelWithLMHead.from_pretrained("mrm8488/bert2bert-spanish-question-generation")
 
 #To save it once you download it
 #tokenizer.save_pretrained("b2bFiles")
 #model.save_pretrained("b2bFiles")
-
 
 def get_question(answer, context, max_length=64):
   input_text = "answer: %s  context: %s </s>" % (answer, context)
