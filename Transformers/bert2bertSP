@@ -2,9 +2,6 @@ from transformers import AutoTokenizer, AutoModelForSeq2SeqLM,pipeline
 
 tokenizer = AutoTokenizer.from_pretrained("b2bFiles")
 modelQ = AutoModelForSeq2SeqLM.from_pretrained("b2bFiles")
-modelA = pipeline("question-answering", model=modelQ, tokenizer=tokenizer)
-
-
 
 #To download this model
 #tokenizer = AutoTokenizer.from_pretrained("mrm8488/bert2bert-spanish-question-generation")
